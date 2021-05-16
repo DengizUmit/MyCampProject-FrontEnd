@@ -7,9 +7,11 @@ import { Category } from '../models/category';
 @Injectable({
   providedIn: 'root'
 })
+
 export class CategoryService {
 
   apiUrl = "https://localhost:44314/api/categories/getall";
+
 
   constructor(private httpClient : HttpClient) { }
 
